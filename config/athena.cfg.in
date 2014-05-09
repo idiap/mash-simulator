@@ -1,0 +1,42 @@
+{
+    "log": {
+        "kind": "console"
+    },
+    "locations": {
+    },
+    "graphics": {
+        "pluginsFolder": "@CONFIG_PLUGIN_FOLDER@",
+        "plugins": [
+            @CONFIG_RENDERSYSTEM_GL@
+            "Plugin_CgProgramManager",
+            "Plugin_OctreeSceneManager",
+            "Plugin_ParticleFX"
+        ],
+        "resources": [
+            {
+                "group": "General",
+                "fileSystem": [
+                    "@CONFIG_ATHENA_MEDIA_PATH@",
+                    "@CONFIG_MASH_MEDIA_PATH@",
+                    "@CONFIG_MASH_MEDIA_PATH@/ceilings",
+                    "@CONFIG_MASH_MEDIA_PATH@/common",
+                    "@CONFIG_MASH_MEDIA_PATH@/decals",
+                    "@CONFIG_MASH_MEDIA_PATH@/floors",
+                    "@CONFIG_MASH_MEDIA_PATH@/objects",
+                    "@CONFIG_MASH_MEDIA_PATH@/walls",
+                    "@CONFIG_MASH_MEDIA_PATH@/overlays"
+                ],
+                "zip": [
+                    "@CONFIG_ATHENA_MEDIA_PATH@/packs/AthenaMedia.zip"
+                ]
+            }
+        ],
+        "renderSystem": "OpenGL Rendering Subsystem",
+        "renderOptions": [
+        ]
+    },
+    "physics": {
+        "nbMaxSubSteps": 1,
+        "fixedTimeStep": 0.016667
+    }
+}

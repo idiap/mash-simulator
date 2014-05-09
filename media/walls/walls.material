@@ -1,0 +1,106 @@
+material Walls/Wall10/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall010_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Walls/Wall13/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall013_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Walls/Wall15/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall015_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Walls/Wall19/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall019_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Walls/Wall101/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall101_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Walls/Wall108/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture wall108_diffuse.tga
+            }
+        }
+    }
+}

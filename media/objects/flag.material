@@ -1,0 +1,61 @@
+
+material Flags/flag_mash
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.8 0.8 0.8 1
+            diffuse 0.9 0.9 0.9 1
+            specular 0.6 0.6 0.6 1 40
+
+            texture_unit
+            {
+                texture flag_mash.jpg -1
+            }
+        }
+
+    }
+
+}
+
+
+material Flags/flag_mash_blue
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.8 0.8 0.8 1
+            diffuse 0.9 0.9 0.9 1
+            specular 0.6 0.6 0.6 1 40
+
+            texture_unit
+            {
+                texture flag_mash_blue.jpg -1
+            }
+        }
+
+    }
+
+}
+
+material Flags/pole
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.5 0.5 0.5 1
+            diffuse 0.7 0.7 0.7 1
+            specular 0.85 0.85 0.85 1 20
+
+            texture_unit
+            {
+                texture flag_pole.jpg -1
+            }
+        }
+
+    }
+
+}

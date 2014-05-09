@@ -1,0 +1,30 @@
+Simulator/Success
+{
+    zorder 200
+
+    container Panel(Simulator/Success/Panel)
+    {
+        // Center it
+        left 0.25
+        top 0.25
+        width 0.5
+        height 0.5
+        material Simulator/Success
+    }
+}
+
+
+Simulator/Failed
+{
+    zorder 200
+
+    container Panel(Simulator/Failed/Panel)
+    {
+        // Center it
+        left 0.25
+        top 0.25
+        width 0.5
+        height 0.5
+        material Simulator/Failed
+    }
+}

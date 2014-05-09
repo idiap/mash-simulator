@@ -1,0 +1,36 @@
+material Simulator/Success
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture success.png -1
+            }
+        }
+    }
+}
+
+
+material Simulator/Failed
+{
+    technique
+    {
+        pass
+        {
+            lighting off
+            scene_blend alpha_blend
+            depth_write off
+
+            texture_unit
+            {
+                texture failed.png -1
+            }
+        }
+    }
+}

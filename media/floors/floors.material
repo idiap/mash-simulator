@@ -1,0 +1,124 @@
+material Floors/Floor3/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture floor003_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Floors/Floor5/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture floor005_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Floors/Floor102/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture floor102_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Floors/Floor103/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 1.0 1.0 1.0
+
+            texture_unit
+            {
+                texture floor103_diffuse.tga
+            }
+        }
+    }
+}
+
+
+material Floors/BluePaint/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                texture blue_paint.png
+            }
+        }
+    }
+}
+
+
+material Floors/RedPaint/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                texture red_paint.png
+            }
+        }
+    }
+}
+
+
+material Floors/YellowPaint/Basic
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                texture yellow_paint.png
+            }
+        }
+    }
+}

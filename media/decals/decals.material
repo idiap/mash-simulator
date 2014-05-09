@@ -1,0 +1,154 @@
+material Decals/Arrow-Left
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_write off
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.8 0.8 0.8
+
+            texture_unit
+            {
+                texture left-arrow.tga
+            }
+        }
+    }
+}
+
+
+material Decals/Arrow-Right
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_write off
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.8 0.8 0.8
+
+            texture_unit
+            {
+                texture right-arrow.tga
+            }
+        }
+    }
+}
+
+
+material Decals/Hazard-Stripes
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                filtering anisotropic
+                max_anisotropy 8
+
+                texture hazard-stripes.tga
+            }
+        }
+    }
+}
+
+
+material Decals/Black-Disk
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            depth_write off
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.8 0.8 0.8
+
+            texture_unit
+            {
+                texture black-disk.tga
+            }
+        }
+    }
+}
+
+
+material Decals/Blue-Paint
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            alpha_rejection greater_equal 128
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                filtering anisotropic
+                max_anisotropy 8
+
+                texture blue-paint.png
+            }
+        }
+    }
+}
+
+
+material Decals/Red-Paint
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            alpha_rejection greater_equal 128
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                filtering anisotropic
+                max_anisotropy 8
+
+                texture red-paint.png
+            }
+        }
+    }
+}
+
+
+material Decals/Yellow-Paint
+{
+    technique
+    {
+        pass
+        {
+            scene_blend alpha_blend
+            alpha_rejection greater_equal 128
+
+            ambient 0.3 0.3 0.3
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                filtering anisotropic
+                max_anisotropy 8
+
+                texture yellow-paint.png
+            }
+        }
+    }
+}

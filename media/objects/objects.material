@@ -1,0 +1,11 @@
+material TargetObject
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.55 0.42 0.0
+            diffuse 0.7 0.53 0.1
+        }
+    }
+}

@@ -1,0 +1,166 @@
+material Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            ambient 0.35 0.35 0.35
+            diffuse 0.7 0.7 0.7
+
+            texture_unit
+            {
+                texture pillar_default.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Squares/Red : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_squares_red.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Squares/Blue : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_squares_blue.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Horizontal/Red : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_horizontal_red.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Horizontal/Blue : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_horizontal_blue.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Vertical/Red : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_vertical_red.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Vertical/Blue : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_vertical_blue.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Diagonal/Left/Red : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_diagonal_left_red.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Diagonal/Left/Blue : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_diagonal_left_blue.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Diagonal/Right/Red : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_diagonal_right_red.png -1
+            }
+        }
+    }
+}
+
+
+material Pillars/Diagonal/Right/Blue : Pillars/default
+{
+    technique
+    {
+        pass
+        {
+            texture_unit
+            {
+                texture pillar_diagonal_right_blue.png -1
+            }
+        }
+    }
+}
