@@ -78,41 +78,63 @@ protocol, see the [Network Protocol](docs/network_protocol.md) documentation.
 
 The following goals are available:
 
- * **reach_1_flag**: The robot must find and reach the flag
-   ![reach_1_flag](https://raw.github.com/idiap/mash-simulator/master/docs/reach_1_flag.png)
- * **reach_2_flags_in_order**: The robot must first reach the blue flag, and then
-   the red one
-   ![reach_2_flags_in_order](https://raw.github.com/idiap/mash-simulator/master/docs/reach_2_flags_in_order.png)
- * **reach_unique_flag**: With three flags available in the environment, two of
-   them being of the same color, the robot must reach the one that is unique
-   ![reach_unique_flag](https://raw.github.com/idiap/mash-simulator/master/docs/reach_unique_flag.png)
- * **all_you_can_eat**: There are a lot of flags in the environment, which the
-   robot must *eat* by reaching them. Each time a flag is eat, it disappear and
-   a new one appears elsewhere. If the robot doesn't eat a flag for 10 seconds,
-   the task is failed.
-   ![all_you_can_eat](https://raw.github.com/idiap/mash-simulator/master/docs/all_you_can_eat.png)
- * **eat_black_disks**: Similar to **all_you_can_eat**, but with black disks on
-   the floor instead of flags
-   ![eat_black_disks](https://raw.github.com/idiap/mash-simulator/master/docs/eat_black_disks.png)
- * **follow_the_light**: The ambient light colour indicates directly which action
-   should be performed: red to turn left, green to turn right, white to go forward
-   ![follow_the_light](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_light.png)
- * **follow_the_arrow**: The robot must reach the flag indicated by an arrow painted
-   on the wall
-   ![follow_the_arrow](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_arrow.png)
- * **follow_the_line**: The robot must follow the coloured line on the floor to reach
-   the flag. The task is failed if the robot leaves the line. 
-   ![follow_the_line](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_line.png)
- * **follow_the_blobs**: The floor is covered in paint. The robot must reach the flag
-   without leaving the paint color it started on. 
-   ![follow_the_blobs](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_blobs.png)
- * **reach_correct_pillar**: The robot must reach the pillar painted with diagonal lines
-   ![reach_correct_pillar](https://raw.github.com/idiap/mash-simulator/master/docs/reach_correct_pillar.png)
- * **reach_correct_object**: With two pedestals in the environment, the robot must
-   reach the one with a trophy on it. 
-   ![reach_correct_object](https://raw.github.com/idiap/mash-simulator/master/docs/reach_correct_object.png)
- * **secret**: A secret goal that must be discovered by the machine learning
-   algorithm
+**reach_1_flag**: The robot must find and reach the flag
+
+![reach_1_flag](https://raw.github.com/idiap/mash-simulator/master/docs/reach_1_flag.png)
+
+**reach_2_flags_in_order**: The robot must first reach the blue flag, and then
+the red one
+
+![reach_2_flags_in_order](https://raw.github.com/idiap/mash-simulator/master/docs/reach_2_flags_in_order.png)
+
+**reach_unique_flag**: With three flags available in the environment, two of
+them being of the same color, the robot must reach the one that is unique
+
+![reach_unique_flag](https://raw.github.com/idiap/mash-simulator/master/docs/reach_unique_flag.png)
+
+**all_you_can_eat**: There are a lot of flags in the environment, which the
+robot must *eat* by reaching them. Each time a flag is eat, it disappear and
+a new one appears elsewhere. If the robot doesn't eat a flag for 10 seconds,
+the task is failed.
+
+![all_you_can_eat](https://raw.github.com/idiap/mash-simulator/master/docs/all_you_can_eat.png)
+
+**eat_black_disks**: Similar to **all_you_can_eat**, but with black disks on
+the floor instead of flags
+
+![eat_black_disks](https://raw.github.com/idiap/mash-simulator/master/docs/eat_black_disks.png)
+
+**follow_the_light**: The ambient light colour indicates directly which action
+should be performed: red to turn left, green to turn right, white to go forward
+
+![follow_the_light](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_light.png)
+
+**follow_the_arrow**: The robot must reach the flag indicated by an arrow painted
+on the wall
+
+![follow_the_arrow](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_arrow.png)
+
+**follow_the_line**: The robot must follow the coloured line on the floor to reach
+the flag. The task is failed if the robot leaves the line. 
+
+![follow_the_line](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_line.png)
+
+**follow_the_blobs**: The floor is covered in paint. The robot must reach the flag
+without leaving the paint color it started on. 
+
+![follow_the_blobs](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_blobs.png)
+
+**reach_correct_pillar**: The robot must reach the pillar painted with diagonal lines
+
+![reach_correct_pillar](https://raw.github.com/idiap/mash-simulator/master/docs/reach_correct_pillar.png)
+
+**reach_correct_object**: With two pedestals in the environment, the robot must
+reach the one with a trophy on it. 
+
+![reach_correct_object](https://raw.github.com/idiap/mash-simulator/master/docs/reach_correct_object.png)
+
+**secret**: A secret goal that must be discovered by the machine learning
+algorithm
 
 
 ## Available environments
@@ -128,26 +150,42 @@ Some parameters are randomized, like:
 
 The following environments are available:
 
- * **SingleRoom**: A small rectangular room
-   ![SingleRoom](https://raw.github.com/idiap/mash-simulator/master/docs/reach_1_flag.png)
- * **MediumRoom**: A bigger rectangular room
- * **HugeRoom**: A huge rectangular room
- * **TwoRooms**: Two rectangular rooms connected together by a door 
-   ![TwoRooms](https://raw.github.com/idiap/mash-simulator/master/docs/TwoRooms.png)
- * **L-ShapedCorridor**: A L-shaped corridor
-   ![LShapedCorridor](https://raw.github.com/idiap/mash-simulator/master/docs/LShapedCorridor.png)
- * **T-ShapedCorridor**: A T-shaped corridor
-   ![TShapedCorridor](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_arrow.png)
- * **LightRoom**: A small rectangular room where the ambient light change its color
-   regularly
-   ![LightRoom](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_light.png)
- * **Line**: A rectangular room with a line on the floor going from the starting
-   position to the flag
-   ![Line](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_line.png)
- * **BlobsRoom**: A rectangular room where the floor is covered in paint
-   ![BlobsRoom](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_blobs.png)
- * **Secret**: A secret environment that must be discovered by the machine learning
-   algorithm
+**SingleRoom**: A small rectangular room
+
+![SingleRoom](https://raw.github.com/idiap/mash-simulator/master/docs/reach_1_flag.png)
+
+**MediumRoom**: A bigger rectangular room
+
+**HugeRoom**: A huge rectangular room
+
+**TwoRooms**: Two rectangular rooms connected together by a door 
+
+![TwoRooms](https://raw.github.com/idiap/mash-simulator/master/docs/TwoRooms.png)
+
+**L-ShapedCorridor**: A L-shaped corridor
+
+![LShapedCorridor](https://raw.github.com/idiap/mash-simulator/master/docs/LShapedCorridor.png)
+
+**T-ShapedCorridor**: A T-shaped corridor
+
+![TShapedCorridor](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_arrow.png)
+
+**LightRoom**: A small rectangular room where the ambient light change its color
+regularly
+
+![LightRoom](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_light.png)
+
+**Line**: A rectangular room with a line on the floor going from the starting
+position to the flag
+
+![Line](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_line.png)
+
+**BlobsRoom**: A rectangular room where the floor is covered in paint
+
+![BlobsRoom](https://raw.github.com/idiap/mash-simulator/master/docs/follow_the_blobs.png)
+
+**Secret**: A secret environment that must be discovered by the machine learning
+algorithm
 
 
 ## Implementation details
